@@ -1,0 +1,81 @@
+/* Основные стили для страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Шапка */
+header {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+header h1 a:hover {
+    color: #007BFF;
+}
+
+/* Навигация */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #555;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Основное содержание */
+main {
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+/* Блоки контента */
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Стили для добавления поста */
+a.add-post {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+a.add-post:hover {
+    background-color: #0056b3;
+}
